@@ -8,7 +8,7 @@ public class EmpleadoPorComision extends Empleado {
         super(nombre, codigo, salarioBase);
 
         if (totalVentas < 0) {
-            throw new IllegalArgumentException("Error: Salario Invalido");
+            throw new IllegalArgumentException("Error: Total de ventas Invalido");
 
         } else {
             this.totalVentas = totalVentas;
